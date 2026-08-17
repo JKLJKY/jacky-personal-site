@@ -1,0 +1,28 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Build / dist
+dist/
+build/
+out/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# WorkBuddy
+.workbuddy-ai/
